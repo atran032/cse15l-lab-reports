@@ -14,8 +14,8 @@ Upon opening VSCode, you should be greeted with a welcome page helping you navig
 To use remote access, you also need to install [Git for Windows](https://gitforwindows.org/). Follow the instructions on the installer and you're all set. 
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/130080125/230801805-fc73febb-f122-4ed6-8c42-586a84ebe909.png">
-## Remotely Connecting
 
+## Remotely Connecting
 In order to access the server, you need to know your account name and password. You can find it at https://sdacs.ucsd.edu/~icc/index.php using the account lookup feature. 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/130080125/230801311-d7e8e9d6-7342-46c0-92f9-b1be73a02b9b.png">
 Enter your username and student ID and proceed. Under **Additional Accounts**, look for the account starting with *cs15lsp23*. Remember the final two letters, which make your account unique. You must also have a password set using the indicated using the indicated tool.
@@ -29,4 +29,5 @@ Your username and password will be used to achieve remote access. Return to VSCo
 Lastly, it will prompt you for your password. Though you can't see it, type it and press enter. Congratulations! You're logged into a server.
 
 <img width="384" alt="image" src="https://user-images.githubusercontent.com/130080125/230802116-195c5443-25ad-420c-8497-93c67a410873.png">
+
 ## Running Commands
