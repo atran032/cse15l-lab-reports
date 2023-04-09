@@ -15,6 +15,7 @@ To use remote access, you also need to install [Git for Windows](https://gitforw
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/130080125/230801805-fc73febb-f122-4ed6-8c42-586a84ebe909.png">
 ## Remotely Connecting
+
 In order to access the server, you need to know your account name and password. You can find it at https://sdacs.ucsd.edu/~icc/index.php using the account lookup feature. 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/130080125/230801311-d7e8e9d6-7342-46c0-92f9-b1be73a02b9b.png">
 Enter your username and student ID and proceed. Under **Additional Accounts**, look for the account starting with *cs15lsp23*. Remember the final two letters, which make your account unique. You must also have a password set using the indicated using the indicated tool.
