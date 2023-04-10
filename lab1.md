@@ -1,5 +1,5 @@
 # Lab Report 1
-![image](https://user-images.githubusercontent.com/130080125/230829858-df9dcf07-451b-433f-83cf-4fba138bf0b4.png)
+![server](https://user-images.githubusercontent.com/130080125/230830067-2c4f8dbf-1908-4225-b602-a637340358f2.gif)
 
 So you want to remotely access a server? Then you've come to the right place! Remote access allows you to run commands on computers other than your own. This can be done in 3 easy steps.
 ## Installing VSCode
