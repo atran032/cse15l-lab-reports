@@ -31,3 +31,8 @@ Lastly, it will prompt you for your password. Though you can't see it, type it a
 <img width="384" alt="image" src="https://user-images.githubusercontent.com/130080125/230802116-195c5443-25ad-420c-8497-93c67a410873.png">
 
 ## Running Commands
+While on the server, you can use a variety of commands to view and manipulate your directory. Enter *pwd* to view your current directory or *ls* to view files contained within it. You can also use the *cat* command to print a Hello message!
+
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/130080125/230831621-633948f4-e1b5-482d-b637-02d4d772b29b.png">
+
+The commands *ls -lat* and *ls -a* also print some rather cryptic information. Lastly, to close the server, type *exit*. Congrats! Now you know how to remotely access a server and run some commands in it.
