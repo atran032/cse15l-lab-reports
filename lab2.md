@@ -66,4 +66,4 @@ In this case, it's at the very end, where the sum is divided by the length of th
 The solution involves adding an index field i to count how many of the lowest number there are. Then, it is subtracted from the total length to yield the actual length. This way, the code can work whether we have 1, 2, or many more of a lowest number.
 
 ## Part 3
-I learned a lot from the past 2 labs. One thing I didn't know before was how to use URLs 
+I learned a lot from the past 2 labs. One thing I didn't know before was how to use URLs in creating servers and having some effects on pieces of code. I found it very interesting that different paths can make the code do and display different things. After writing my own server to add strings to a list, I think I more thoroughly understand how this is done using methods such as getPath() and getQuery().
