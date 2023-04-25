@@ -31,8 +31,6 @@ This test does return the right answer and we wouldn't be able to recognize ther
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/130080125/234165913-e7fe34b8-667c-4d85-a908-492894d76199.png">
 Now that we've identified the symptom, we need to look for the bug.
 
-Original code
-
     static double averageWithoutLowest(double[] arr) {
       if(arr.length < 2) { return 0.0; }
       double lowest = arr[0];
@@ -45,3 +43,22 @@ Original code
       }
       return sum / (arr.length - 1);
     }
+    
+In this case, it's at the very end, where the sum is divided by the length of the whole array minus one. This works when there is only one of the lowest number, but fails when there are many, dividing the total by a number that's too large. 
+
+    static double averageWithoutLowest(double[] arr) {
+      if(arr.length < 2) { return 0.0; }
+      double lowest = arr[0];
+      for(double num: arr) {
+        if(num < lowest) { lowest = num; }
+      }
+      double sum = 0;
+      int i = 0;
+      for(double num: arr) {
+        if(num != lowest) { sum += num; }
+        else { i++; }
+      }
+      return sum / (arr.length - i);
+  }
+
+The solution involves adding an index field i to count how many of the lowest number there are. Then, it is subtracted from the total length to yield the actual length. This way, the code can work whether we have 1, 2, or many more of a lowest number.
