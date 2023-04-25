@@ -59,6 +59,6 @@ In this case, it's at the very end, where the sum is divided by the length of th
         else { i++; }
       }
       return sum / (arr.length - i);
-  }
+    }
 
 The solution involves adding an index field i to count how many of the lowest number there are. Then, it is subtracted from the total length to yield the actual length. This way, the code can work whether we have 1, 2, or many more of a lowest number.
