@@ -13,6 +13,6 @@ Adding another item to the list means that the same methods are called. First, t
 
 ## Part 2
     public void testAverage() {
-    double[] input = { 2, 2, 2, 1, 1, 2 };
-    assertEquals(2, ArrayExamples.averageWithoutLowest(input), 0);
-  }
+      double[] input = { 2, 2, 2, 1, 1, 2 };
+      assertEquals(2, ArrayExamples.averageWithoutLowest(input), 0);
+    }
