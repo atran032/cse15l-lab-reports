@@ -9,7 +9,7 @@ Starting the server and accessing the homepage yields nothing at first.
 
 <img width="365" alt="image" src="https://user-images.githubusercontent.com/130080125/234161063-0973cd7b-035d-4902-aadd-d789345bde2a.png">
 When a proper path is included, a string is displayed on the server. In this case, the method 
-```
+```js
 handleRequest(URI url)
 ```
 method was used to 
