@@ -13,11 +13,14 @@ Adding another item to the list means that the same methods are called. First, t
 
 ## Part 2
 One failure inducing output involved testing the averageWithoutLowest(double[] arr) method from ArrayExamples. It involved having two of the lowest numbers and testing to see if they got removed.
+
     public void testAverage() {
       double[] input = { 2, 3, 2, 1, 1, 3 };
       assertEquals(2.5, ArrayExamples.averageWithoutLowest(input), 0);
     }
+
 Original code
+
     static double averageWithoutLowest(double[] arr) {
       if(arr.length < 2) { return 0.0; }
       double lowest = arr[0];
