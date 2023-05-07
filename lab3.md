@@ -86,4 +86,28 @@ Instead of looking at just one file, grep can also perform some recursive search
 
     $ grep -r --include="*.txt" "word" directory/
     
-**-r** makes **grep** search recursively in the given directory, while **include** checks the files to see if they contain a matching extension. The "*\.txt"
+**-r** makes **grep** search recursively in the given directory, while **include** checks the files to see if they contain a matching extension. The "*\.txt" but it can be substituted with any extension, such as pdfs. A useful feature of this type of search is that it also displays the file from which the line came from, making it easy to find.
+
+    $ grep -r --include="*.txt" "lawyer" government/Media
+    government/Media/5_Legal_Groups.txt:from Utah lawyers and foundations, was the first joint fund-raising
+    government/Media/agency_expands.txt:Before the expansion, only a few NLS lawyers spoke Asian
+    government/Media/Aid_Gets_7_Million.txt:women. Both staffers and volunteer lawyers work in city, county,
+    government/Media/All_May_Have_Justice.txt:donations from lawyers and other legal professionals. Since then,
+    ...
+    
+The **include** option doesn't necessarily need to search for extensions, but can search files for any matching pattern.
+
+    $ grep -r -i --include="Mitchell*" "postal" government/Post_Rate_Comm/
+    government/Post_Rate_Comm/Mitchell_6-17-Mit.txt:Postal Worksharing: Welfare, Technical Efficiency, and Pareto
+    government/Post_Rate_Comm/Mitchell_6-17-Mit.txt:Presented at the Sixth Conference on Postal and Delivery
+    ...
+    government/Post_Rate_Comm/Mitchell_RMVancouver.txt:elimination of economic rents. Postal administrations, however, are
+    ...
+    government/Post_Rate_Comm/Mitchell_spyros-first-class.txt:U.S. Postal Rate Commission
+    ...
+    
+These options are functional not only for their recursive search capabilities, but also their ability to filter results based on the titles of files. This could be very useful if, for example, you wanted to find lines of code in only .java files.
+
+An interesting thing to note is that any of these commands and operaters could be used in tandem with each other to refine searches even further. All together, they make **grep** a powerful and versatile tool to search files.
+
+All of the reseach was provided by ChatGPT.
