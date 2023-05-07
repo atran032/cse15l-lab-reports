@@ -106,6 +106,7 @@ The **include** option doesn't necessarily need to search for extensions, but ca
     government/Post_Rate_Comm/Mitchell_spyros-first-class.txt:U.S. Postal Rate Commission
     ...
     
+    
 These options are functional not only for their recursive search capabilities, but also their ability to filter results based on the titles of files. This could be very useful if, for example, you wanted to find lines of code in only .java files.
 
 An interesting thing to note is that any of these commands and operaters could be used in tandem with each other to refine searches even further. All together, they make **grep** a powerful and versatile tool to search files.
