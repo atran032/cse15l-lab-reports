@@ -3,7 +3,7 @@
 
 The **grep** command is used to search text files and find lines which contain a given string. Here, we'll be exploring some of the interesting things you can do with **grep** and some ways you might use them. I give special thanks to ChatGPT for helping me find all of the following.
 
-First, the *or* operator can be used by typing a vertical bar (|) between two strings. It must be formatted starting with a backslash (\) with backslashes following every string. Surround all strings with a parenthesis and vertical bars in between, like so:
+First, the *or* operator can be used by typing a vertical bar (|) between two strings. It must be formatted starting with a backslash (\\) with backslashes following every string. Surround all strings with a parenthesis and vertical bars in between, like so:
     
     $ grep "\(word1\|word2\)" file.txt
     
