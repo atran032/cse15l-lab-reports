@@ -39,7 +39,7 @@ By putting **-v** after **grep**, you filter out any occurrence of that string.
         genetic and neurobiological approaches are now giving us clues to causes and better
         treatments.
         
-\
+ 
         
         $ grep -v "t" biomed/1471-2105-3-24.txt
             disease.
