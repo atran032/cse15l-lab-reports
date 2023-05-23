@@ -30,4 +30,8 @@ Keys pressed: `<up><up>, <enter>`
 
 Having ran the tests before, I only needed to search up the history twice until it accessed the command `bash test.sh` and ran it with `<enter>`. Both tests pass with no errors now.
 ## Step 9
-<img width="426" alt="image" src="https://github.com/atran032/cse15l-lab-reports/assets/130080125/e0e9b0da-53dd-4bcd-8461-1d00241709c9">
+<img width="427" alt="image" src="https://github.com/atran032/cse15l-lab-reports/assets/130080125/6d90cc49-522c-4f97-952b-5280b0093323">
+
+Keys pressed: `"git add --all", "git commit -m "Fixed error in ListExamples""`
+
+The `--all` adds all files instead of needing to specify any specific one. The second command commits the changes with a message. The changes, which are one insertion and one deletion, can be seen at the bottom of the image.
